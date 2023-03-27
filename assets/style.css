@@ -1,0 +1,23 @@
+body {
+background-image: url(photo1.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+
+.fancy {
+    
+    background-color: lightseagreen;
+    color: white;
+    border: dotted; 
+    text-align: center;
+
+}
+
+.glow {
+    text-shadow: 2px 2px #FF0000;
+    background-color: bisque;
+    width: 150px;
+    text-align: center;
+}
