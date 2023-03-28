@@ -5,10 +5,13 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+ul {
+    text-align: left;
+}
 
 .fancy {
-    
-    background-color: lightseagreen;
+    border-radius: 15px;
+    background-color: rgb(71, 60, 130);
     color: white;
     border: dotted; 
     text-align: center;
@@ -16,8 +19,8 @@ background-attachment: fixed;
 }
 
 .glow {
-    text-shadow: 2px 2px #FF0000;
-    background-color: bisque;
+    text-shadow: 2px 2px #a56a6a;
+    background-color: skyblue;
     width: 150px;
     text-align: center;
 }
