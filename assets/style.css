@@ -5,15 +5,43 @@ background-size: cover;
 background-attachment: fixed;
 }
 
-ul {
-    text-align: left;
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+   
+    
+}
+
+.photo {
+    
+    width: 35%;
+    height: 35%;
+    
+}
+
+nav {
+    display: flex;
+    text-decoration: underline;
+}
+
+nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: #a56a6a;
+}
+
+nav a:hover {
+
+    background-color: bisque;
 }
 
 .fancy {
     border-radius: 15px;
     background-color: rgb(71, 60, 130);
     color: white;
-    border: dotted; 
+    border: blanchedalmond; 
     text-align: center;
 
 }
@@ -23,4 +51,13 @@ ul {
     background-color: skyblue;
     width: 150px;
     text-align: center;
+}
+
+.about{
+    border: double;
+    padding: 3%;
+    border-bottom: 100%;
+    width: 35%;
+    text: wrap;
+
 }
