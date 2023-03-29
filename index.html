@@ -1,65 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css" /> 
-     <title> Paul Nixon - Portfolio!</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./assets/reset.css" />
+   <link rel="stylesheet" href="./assets/style.css" />
+   <title> Paul Nixon - Portfolio!</title>
 </head>
 
 <!--Main header with menu option-->
 <!--Need to add Drop down menu, Contact info, project section-->
 
 <body>
-<header class="fancy">  
-   <img class="photo" src="./assets/insert-image-html-2.jpg" alt="HTML image">
-   <h1> Paul Nixon - Student Portfolio </h1>
-   <br>
-   <marquee><h2 class="glow">Portfolio 1.0</h2></marquee>
-</header>  
+   <header class="fancy">
+      <img class="photo" src="./assets/insert-image-html-2.jpg" alt="HTML image">
+      <h1> Paul Nixon - Student Portfolio </h1>
+      <br>
+      <marquee>
+         <h2 class="glow">Portfolio 1.0</h2>
+      </marquee>
+   </header>
 
-<!--Nav bar for website navigation-->
-    <nav>
-    <a href="#">About Me</a>
-    <a href="#">Contact</a>
-    <a href="#">Menu</a>
-    </nav>
-<br><br><br>
+   <!--Nav bar for website navigation-->
+   <!--Nav bar will display links with pseudo css properties-->
 
-<main>    
-   
-<section class="about">
-   About Me 
-   <br><br>
-   I currently working as an Operations Manager for an Amazon delivery service.
-   I am from Souderton, PA.  
-</section>  <br><br>
+   <nav>
+      <a href="#AboutMe">About Me</a>
+      <a href="#Contact">Contact</a>
+      <a href="#Project">Project</a>
+   </nav>
+   <br><br><br>
 
-<section class="about"  >
- <p>Contact</p>
- Email:
+   <main>
 
- Please fill out this fill if you are interested in learning more!
-</section>
-<br><br>
+      <section id="Project" class="focal">
+         Project
+         <a href="https://paulnxn1.github.io/horiseon/">
+            <img src="./assets/photohoriseon.png" alt="Project1">
+         </a>
+      </section>
+      <br>
 
-<section class="about">
-Menu 
+      <section id="AboutMe" class="about">
+         About Me
+         <br><br>
+         I currently working as an Operations Manager for an Amazon delivery service.
+         I am from Souderton, PA.
+      </section> <br><br>
 
-</section>
+      <section id="Contact" class="about">
+         <p> Contact</p>
+         Email:
 
-
-
-
-
-
-
-
-
+         Please fill out this fill if you are interested in learning more!
+      </section>
+      <br><br>
 
 
-</main>
-   
+
+
+
+
+
+
+
+
+
+
+
+   </main>
+
 </body>
+
 </html>

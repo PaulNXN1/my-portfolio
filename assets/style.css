@@ -7,9 +7,9 @@ background-attachment: fixed;
 
 main {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-content: center;
-   
     
 }
 
@@ -34,7 +34,7 @@ nav a {
 
 nav a:hover {
 
-    background-color: bisque;
+    background-color: lightcyan;
 }
 
 .fancy {
@@ -53,11 +53,31 @@ nav a:hover {
     text-align: center;
 }
 
+.focal {
+    
+    border: dotted;
+    background-color: burlywood;
+    width: 35%;
+    height: 75px;
+    padding: 3%;
+
+}
+
 .about{
     border: double;
     padding: 3%;
     border-bottom: 100%;
     width: 35%;
-    text: wrap;
+            
+}
+
+@media screen and (width >= 768px) {
+    main{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
 
 }
+
+
+    
