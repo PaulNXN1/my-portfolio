@@ -36,7 +36,7 @@ nav {
     text-decoration: underline;
 }
 
-
+/* Styling for the <nav> and anchors <a>*/
 nav a {
     padding: 14px 20px;
     text-decoration: none;
@@ -68,16 +68,22 @@ nav a:hover {
 }
 
 
-
+/* Design for each section [3 currently]*/
 .about{
-    border-radius: 20px;
+
+    display: inline-block;
+    border-radius: 10px;
+    border-bottom: solid green;
+    border-left: solid green;
     background-color: rgb(221, 182, 104);
+    margin: 1%;
     width: 40%;
     height: 75px;
-    padding: 4%;
+    padding: 5%;
             
 }
 
+/* CSS - to allow screen to adapt to pixel sizes*/
 @media screen and (width >= 768px) {
     main{
         flex-direction: column;
