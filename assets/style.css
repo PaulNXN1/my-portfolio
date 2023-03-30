@@ -1,4 +1,5 @@
 body {
+font-family: Verdana, sans-serif;
 background-image: url(photo1.webp);
 background-repeat: no-repeat;
 background-size: cover;
@@ -13,12 +14,18 @@ main {
     
 }
 
+.photo2 {
+    width: 18%;
+    height: 80%;
+}
+
 .photo {
     
     width: 35%;
     height: 35%;
     
 }
+
 
 nav {
     display: flex;
@@ -49,25 +56,18 @@ nav a:hover {
 .glow {
     text-shadow: 2px 2px #a56a6a;
     background-color: skyblue;
-    width: 150px;
+    width: 170px;
     text-align: center;
 }
 
-.focal {
-    
-    border: dotted;
-    background-color: burlywood;
-    width: 35%;
-    height: 75px;
-    padding: 3%;
 
-}
 
 .about{
-    border: double;
-    padding: 3%;
-    border-bottom: 100%;
-    width: 35%;
+    border-radius: 20px;
+    background-color: burlywood;
+    width: 40%;
+    height: 75px;
+    padding: 4%;
             
 }
 
