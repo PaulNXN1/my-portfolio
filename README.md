@@ -1,4 +1,4 @@
-# 🏗️ my-portfolio 1.0
+# 🏗️ my-portfolio
 
 ## Description 
 
@@ -25,3 +25,4 @@ There was no code provided at the beginning of the assignment.  This initial web
 A link to the final project is below:
 
 https://paulnxn1.github.io/my-portfolio/
+
