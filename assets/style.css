@@ -1,3 +1,5 @@
+/*  Showing the background */
+
 body {
 font-family: Verdana, sans-serif;
 background-image: url(photo1.webp);
@@ -6,6 +8,7 @@ background-size: cover;
 background-attachment: fixed;
 }
 
+/* Main body of the website. Layout of the sections*/
 main {
     display: flex;
     flex-direction: row;
@@ -14,23 +17,25 @@ main {
     
 }
 
+/* Self-portrait image */
 .photo2 {
     width: 18%;
     height: 80%;
 }
 
+/* Class from the header */
 .photo {
     
     width: 35%;
     height: 35%;
-    
 }
 
-
+/* Class from the header */
 nav {
     display: flex;
     text-decoration: underline;
 }
+
 
 nav a {
     padding: 14px 20px;
@@ -39,20 +44,22 @@ nav a {
     text-shadow: #a56a6a;
 }
 
+/* Using a pseudo property - changes background of menu links */
 nav a:hover {
 
     background-color: lightcyan;
 }
 
+/* Class from the header - Top of webpage*/
 .fancy {
     border-radius: 15px;
-    background-color: rgb(71, 60, 130);
+    background-color: rgb(19, 111, 147);
     color: white;
     border: blanchedalmond; 
     text-align: center;
 
 }
-
+/* Portfolio 1.0 - CSS; text that glides across screen */
 .glow {
     text-shadow: 2px 2px #a56a6a;
     background-color: skyblue;
@@ -64,7 +71,7 @@ nav a:hover {
 
 .about{
     border-radius: 20px;
-    background-color: burlywood;
+    background-color: rgb(221, 182, 104);
     width: 40%;
     height: 75px;
     padding: 4%;
