@@ -20,24 +20,28 @@ main {
 /* Self-portrait image */
 .photo2 {
     width: 18%;
-    height: 80%;
+    height: auto;
+    padding: 1%;
 }
 
 /* Class from the header */
 .photo {
     
     width: 35%;
-    height: 35%;
+    height: auto;
+    padding: 1%;
 }
 
 /* Class from the header */
 nav {
     display: flex;
+    justify-content: flex-end;
     text-decoration: underline;
 }
 
 /* Styling for the <nav> and anchors <a>*/
 nav a {
+
     padding: 14px 20px;
     text-decoration: none;
     text-align: center;
@@ -76,7 +80,7 @@ nav a:hover {
     background-color: rgb(221, 182, 104);
     margin: 1%;
     width: 70%;
-    height: 95%;
+    height: auto;
     padding: 5%;
 }
 
@@ -91,13 +95,13 @@ nav a:hover {
     background-color: rgb(221, 182, 104);
     margin: 1%;
     width: 40%;
-    height: 75px;
+    height: auto;
     padding: 5%;
             
 }
 
 /* CSS - to allow screen to adapt to pixel sizes*/
-@media screen and (width >= 768px) {
+@media screen and (max-width: 768px) {
     main{
         flex-direction: column;
         flex-wrap: wrap;
