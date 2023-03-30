@@ -24,4 +24,4 @@ There was no code provided at the beginning of the assignment.  This initial web
 
 A link to the final project is below:
 
-https://github.com/PaulNXN1/my-portfolio
+https://paulnxn1.github.io/my-portfolio/
