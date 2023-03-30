@@ -26,4 +26,6 @@ A link to the final project is below:
 
 https://paulnxn1.github.io/my-portfolio/
 
+A sample of the website is below.  Please note this is not the full scope of the webpage. 
+
 ![Sample Preview](https://user-images.githubusercontent.com/84299358/228712956-1cd5409e-edce-4ab7-9aaa-676673a1673a.png)
