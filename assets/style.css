@@ -90,9 +90,9 @@ nav a:hover {
     border-left: solid green;
     background-color: rgb(221, 182, 104);
     margin: 1%;
-    width: 70%;
-    height: auto;
-    padding: 5%;
+    width: 50%;
+    height: 400px;
+    padding: 3%;
 }
 
 
@@ -107,7 +107,7 @@ nav a:hover {
     margin: 1%;
     width: 40%;
     height: auto;
-    padding: 5%;
+    padding: 3%;
             
 }
 
