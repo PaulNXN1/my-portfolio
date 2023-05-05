@@ -21,7 +21,7 @@ main {
 .photo2 {
     width: 18%;
     height: auto;
-    padding: 1%;
+    padding: .5%;
 }
 
 /* Class from the header */
@@ -90,9 +90,9 @@ nav a:hover {
     border-left: solid green;
     background-color: rgb(221, 182, 104);
     margin: 1%;
-    width: 50%;
-    height: 400px;
-    padding: 3%;
+    width: 2000px;
+    height: 1000px;
+    padding: 1%;
 }
 
 
@@ -109,6 +109,13 @@ nav a:hover {
     height: auto;
     padding: 3%;
             
+}
+
+#food_Focus {
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+    height: 10px;
 }
 
 /* CSS - to allow screen to adapt to pixel sizes*/
