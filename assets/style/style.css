@@ -84,15 +84,15 @@ nav a:hover {
 
 .about1{
 
-    display: inline-block;
-    border-radius: 10px;
+    
+    border-radius: 5px;
     border-bottom: solid green;
     border-left: solid green;
     background-color: rgb(221, 182, 104);
     margin: 1%;
     width: 2000px;
-    height: 1300px;
-    padding: 1%;
+    height: 1100px;
+    padding: 3%;
 }
 
 
